@@ -1,0 +1,52 @@
+			WRITE-UPS: level00 - level05
+
+
+Tout d'abord, il faut crée un compte sur Wechall. Après on entre sur
+(Challenges...et dans le challenge Warchall y trouve chaque level du Warchall)
+
+
+Maintenant,après avoir entrer le mot de passe, il nous envoi un message y compris 
+un lien et un port qu'on doit copier sur un linux(Putty) pour qu'on puisse participer au challenge.
+
+
+Ensuite,on utilise la commande "ls" pour voir ce qui est dedans ,
+et en entre dans la répertoire (cd "/home/level").Un "ls" est 
+on trouve des dossiers numérotés qui indique le numéro de chaque
+level.
+
+_level 00: après avoir rentré dans le répertoire (/home/level), on clic "ls" pour voir les fichiers
+ou dossiers existants.Ensuite , il suffit juste d'entrer dans le répertoire
+(00_welcome).Un "ls" et il se trouve un fichier (README.md) dedans ,la solution level00 est dans ce 
+fichier(il suffit juste de taper la commande cat "README.md").
+
+_level 01: il suffit juste d'entrer dans le dossier 01_choice_tree).
+On clique "ls" est il y un fichier (README.md) et 3dossiers
+(blue,green,red).
+Ensuite ,on entre dans le dossier "blue" =>(cd  blue), après 
+il y a un dossier ("hats") et y entre aussi =>(cd hats) .
+Sur ce dossier , il y a 3 autres dossiers (blank,grey,white) 
+=> (cd grey) =>(cd solution) =>(cd patience),et il y a un fichier txt(SOLUTION.txt)
+dans ce dossier , et le password du level0 est écrit dedans.  
+
+_level 02/ level 03: Encore dans le répertoire /home/level , pour cette fois-ci, on tape juste 
+(grep -rn "solution") et la solution du level 02 et level 03 sont écrits dedans.
+
+_level 04: pour cette level, il faut d'abord changer en utilisateur principale pour pouvoir accéde 
+à ce niveau. Après , on change de directoire vers "level" seulement (cd /level) , dans se répertoire 
+se trouve un dossier nommé "04_kwisatz".On entre ensuite dans ce dossier , et sur ce dossier on trouve 2 fichiers
+(l'un README.txt , l'autre README2.md). Sur ce deuxième fichier, on n'a pas la permission donc il faut la changer 
+donc il suffit de taper "chmod +r README2.md" pour changer la permission . Enfin, on doit voir ce qui est dedans,
+(cat README2.md) et la solution de ce niveau y se trouve.
+
+_level 05: tout comme level 00, d'abord if faut changer de directoire vers 05_privacy,on tape "ls" et
+et il se trouve un fichier (README.md) dedans ,la solution level05 est dans ce 
+fichier(il suffit juste de taper la commande cat "REDME.md").
+
+
+
+
+
+
+
+
+
